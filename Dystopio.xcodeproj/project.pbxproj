@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		911B88732C0BB0E200CD75C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B88722C0BB0E200CD75C1 /* AppDelegate.swift */; };
+		911B88752C0BB0E200CD75C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B88742C0BB0E200CD75C1 /* SceneDelegate.swift */; };
+		911B88772C0BB0E200CD75C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B88762C0BB0E200CD75C1 /* ViewController.swift */; };
+		911B887A2C0BB0E200CD75C1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 911B88792C0BB0E200CD75C1 /* Base */; };
+		911B887C2C0BB0E300CD75C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911B887B2C0BB0E300CD75C1 /* Assets.xcassets */; };
+		911B887F2C0BB0E300CD75C1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 911B887E2C0BB0E300CD75C1 /* Base */; };
+		911B88A52C0BB18900CD75C1 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B88A42C0BB18900CD75C1 /* Story.swift */; };
+		911B88A82C0BB1AB00CD75C1 /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B88A72C0BB1AB00CD75C1 /* StoryBrain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		911B88862C0BB0E400CD75C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911B88672C0BB0E200CD75C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 911B886E2C0BB0E200CD75C1;
+			remoteInfo = Dystopio;
+		};
+		911B88902C0BB0E400CD75C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911B88672C0BB0E200CD75C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 911B886E2C0BB0E200CD75C1;
+			remoteInfo = Dystopio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		911B886F2C0BB0E200CD75C1 /* Dystopio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dystopio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		911B88722C0BB0E200CD75C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		911B88742C0BB0E200CD75C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		911B88762C0BB0E200CD75C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		911B88792C0BB0E200CD75C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		911B887B2C0BB0E300CD75C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		911B887E2C0BB0E300CD75C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		911B88802C0BB0E300CD75C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911B88852C0BB0E400CD75C1 /* DystopioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DystopioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		911B888F2C0BB0E400CD75C1 /* DystopioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DystopioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		911B88A42C0BB18900CD75C1 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		911B88A72C0BB1AB00CD75C1 /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		911B886C2C0BB0E200CD75C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911B88822C0BB0E400CD75C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911B888C2C0BB0E400CD75C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		911B88662C0BB0E200CD75C1 = {
+			isa = PBXGroup;
+			children = (
+				911B88712C0BB0E200CD75C1 /* Dystopio */,
+				911B88702C0BB0E200CD75C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		911B88702C0BB0E200CD75C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				911B886F2C0BB0E200CD75C1 /* Dystopio.app */,
+				911B88852C0BB0E400CD75C1 /* DystopioTests.xctest */,
+				911B888F2C0BB0E400CD75C1 /* DystopioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		911B88712C0BB0E200CD75C1 /* Dystopio */ = {
+			isa = PBXGroup;
+			children = (
+				911B88722C0BB0E200CD75C1 /* AppDelegate.swift */,
+				911B88742C0BB0E200CD75C1 /* SceneDelegate.swift */,
+				911B88A62C0BB19400CD75C1 /* Model */,
+				911B88A22C0BB13100CD75C1 /* View */,
+				911B88A32C0BB13D00CD75C1 /* Controller */,
+				911B887B2C0BB0E300CD75C1 /* Assets.xcassets */,
+				911B887D2C0BB0E300CD75C1 /* LaunchScreen.storyboard */,
+				911B88802C0BB0E300CD75C1 /* Info.plist */,
+			);
+			path = Dystopio;
+			sourceTree = "<group>";
+		};
+		911B88A22C0BB13100CD75C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				911B88782C0BB0E200CD75C1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		911B88A32C0BB13D00CD75C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				911B88762C0BB0E200CD75C1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		911B88A62C0BB19400CD75C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				911B88A42C0BB18900CD75C1 /* Story.swift */,
+				911B88A72C0BB1AB00CD75C1 /* StoryBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		911B886E2C0BB0E200CD75C1 /* Dystopio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911B88992C0BB0E400CD75C1 /* Build configuration list for PBXNativeTarget "Dystopio" */;
+			buildPhases = (
+				911B886B2C0BB0E200CD75C1 /* Sources */,
+				911B886C2C0BB0E200CD75C1 /* Frameworks */,
+				911B886D2C0BB0E200CD75C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dystopio;
+			productName = Dystopio;
+			productReference = 911B886F2C0BB0E200CD75C1 /* Dystopio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		911B88842C0BB0E400CD75C1 /* DystopioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911B889C2C0BB0E400CD75C1 /* Build configuration list for PBXNativeTarget "DystopioTests" */;
+			buildPhases = (
+				911B88812C0BB0E400CD75C1 /* Sources */,
+				911B88822C0BB0E400CD75C1 /* Frameworks */,
+				911B88832C0BB0E400CD75C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				911B88872C0BB0E400CD75C1 /* PBXTargetDependency */,
+			);
+			name = DystopioTests;
+			productName = DystopioTests;
+			productReference = 911B88852C0BB0E400CD75C1 /* DystopioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		911B888E2C0BB0E400CD75C1 /* DystopioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911B889F2C0BB0E400CD75C1 /* Build configuration list for PBXNativeTarget "DystopioUITests" */;
+			buildPhases = (
+				911B888B2C0BB0E400CD75C1 /* Sources */,
+				911B888C2C0BB0E400CD75C1 /* Frameworks */,
+				911B888D2C0BB0E400CD75C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				911B88912C0BB0E400CD75C1 /* PBXTargetDependency */,
+			);
+			name = DystopioUITests;
+			productName = DystopioUITests;
+			productReference = 911B888F2C0BB0E400CD75C1 /* DystopioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		911B88672C0BB0E200CD75C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					911B886E2C0BB0E200CD75C1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					911B88842C0BB0E400CD75C1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 911B886E2C0BB0E200CD75C1;
+					};
+					911B888E2C0BB0E400CD75C1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 911B886E2C0BB0E200CD75C1;
+					};
+				};
+			};
+			buildConfigurationList = 911B886A2C0BB0E200CD75C1 /* Build configuration list for PBXProject "Dystopio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 911B88662C0BB0E200CD75C1;
+			productRefGroup = 911B88702C0BB0E200CD75C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				911B886E2C0BB0E200CD75C1 /* Dystopio */,
+				911B88842C0BB0E400CD75C1 /* DystopioTests */,
+				911B888E2C0BB0E400CD75C1 /* DystopioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		911B886D2C0BB0E200CD75C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911B887C2C0BB0E300CD75C1 /* Assets.xcassets in Resources */,
+				911B887F2C0BB0E300CD75C1 /* Base in Resources */,
+				911B887A2C0BB0E200CD75C1 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911B88832C0BB0E400CD75C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911B888D2C0BB0E400CD75C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		911B886B2C0BB0E200CD75C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911B88A82C0BB1AB00CD75C1 /* StoryBrain.swift in Sources */,
+				911B88772C0BB0E200CD75C1 /* ViewController.swift in Sources */,
+				911B88732C0BB0E200CD75C1 /* AppDelegate.swift in Sources */,
+				911B88752C0BB0E200CD75C1 /* SceneDelegate.swift in Sources */,
+				911B88A52C0BB18900CD75C1 /* Story.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911B88812C0BB0E400CD75C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911B888B2C0BB0E400CD75C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		911B88872C0BB0E400CD75C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 911B886E2C0BB0E200CD75C1 /* Dystopio */;
+			targetProxy = 911B88862C0BB0E400CD75C1 /* PBXContainerItemProxy */;
+		};
+		911B88912C0BB0E400CD75C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 911B886E2C0BB0E200CD75C1 /* Dystopio */;
+			targetProxy = 911B88902C0BB0E400CD75C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		911B88782C0BB0E200CD75C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911B88792C0BB0E200CD75C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		911B887D2C0BB0E300CD75C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911B887E2C0BB0E300CD75C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		911B88972C0BB0E400CD75C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		911B88982C0BB0E400CD75C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		911B889A2C0BB0E400CD75C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR67W5387D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dystopio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oi.inoyangp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		911B889B2C0BB0E400CD75C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR67W5387D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dystopio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oi.inoyangp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		911B889D2C0BB0E400CD75C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR67W5387D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oi.inoyang.DystopioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dystopio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dystopio";
+			};
+			name = Debug;
+		};
+		911B889E2C0BB0E400CD75C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR67W5387D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oi.inoyang.DystopioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dystopio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dystopio";
+			};
+			name = Release;
+		};
+		911B88A02C0BB0E400CD75C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR67W5387D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oi.inoyang.DystopioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dystopio;
+			};
+			name = Debug;
+		};
+		911B88A12C0BB0E400CD75C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR67W5387D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oi.inoyang.DystopioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dystopio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		911B886A2C0BB0E200CD75C1 /* Build configuration list for PBXProject "Dystopio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911B88972C0BB0E400CD75C1 /* Debug */,
+				911B88982C0BB0E400CD75C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911B88992C0BB0E400CD75C1 /* Build configuration list for PBXNativeTarget "Dystopio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911B889A2C0BB0E400CD75C1 /* Debug */,
+				911B889B2C0BB0E400CD75C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911B889C2C0BB0E400CD75C1 /* Build configuration list for PBXNativeTarget "DystopioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911B889D2C0BB0E400CD75C1 /* Debug */,
+				911B889E2C0BB0E400CD75C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911B889F2C0BB0E400CD75C1 /* Build configuration list for PBXNativeTarget "DystopioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911B88A02C0BB0E400CD75C1 /* Debug */,
+				911B88A12C0BB0E400CD75C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 911B88672C0BB0E200CD75C1 /* Project object */;
+}
